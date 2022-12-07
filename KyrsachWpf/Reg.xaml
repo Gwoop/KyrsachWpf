@@ -1,0 +1,21 @@
+﻿<Window x:Class="KyrsachWpf.Reg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyrsachWpf"
+        mc:Ignorable="d"
+        Title="Reg" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="first" HorizontalAlignment="Left" Margin="83,113,0,0" TextWrapping="Wrap" Text="Фамилия" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="83,148,0,0" TextWrapping="Wrap" Text="Имя" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="mid" HorizontalAlignment="Left" Margin="83,187,0,0" TextWrapping="Wrap" Text="Отчество" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="numb" HorizontalAlignment="Left" Margin="83,265,0,0" TextWrapping="Wrap" Text="номер телефона" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Margin="83,302,0,0" TextWrapping="Wrap" Text="Почта" VerticalAlignment="Top" Width="120"/>
+        <DatePicker x:Name="picer" HorizontalAlignment="Left" Margin="83,222,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Зарегистрироваться" HorizontalAlignment="Left" Margin="83,342,0,0" VerticalAlignment="Top" Width="120" Height="28" Click="Button_Click"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Margin="83,51,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="pas" HorizontalAlignment="Left" Margin="83,74,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
